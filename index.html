@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>day 7</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Elegir una opción de operación</h2>
+            <div>
+                <input type="button" onclick="btnSuma();" id="id_btn_suma" value="Suma">
+                <input type="button" onclick="btnResta();" id="id_btn_resta" value="Resta">
+                <input type="button" onclick="btnMultiplicacion();" id="id_btn_multiplicacion" value="Multiplicación">
+                <input type="button" onclick="btnDivision();" id="id_btn_division" value="División">
+            </div>
+            <div>
+                <h3>Ingresar los dos valores que desea utilizar</h3>
+                <div>
+                    <input type="number" id="id_input_valor1">
+                    <input type="number" id="id_input_valor2">
+                </div>
+                <div>
+                    <input type="button" onclick="btnResultado();" id="id_btn_resultado" value="Resultado">
+                    <input type="button" onclick="btnSalir();" id="id_btn_salir" value="Salir">
+                </div>
+            </div>
+            <p id="id_p_resultado"></p>
+        </section>
+    </main>
+    <footer>
+        <p>Creado por J. Valentin</p>
+    </footer>
+    <script src="./apps/app.js"></script>
+</body>
+</html>
